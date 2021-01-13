@@ -8,7 +8,7 @@ export default function Home() {
     {
       title: "Adeguare il tuo sito o app alle normative",
       imageurl: "/elsa-noblet-5KD5PmZEfcg-unsplash.jpg",
-      category: "Networking",
+      category: "smartworking",
       desc: "Siti web ed app devono sempre rispettare alcuni obblighi imposti dalla legge. Il mancato rispetto delle norme, infatti, comporta il rischio di ingenti sanzioni. Per questo ho scelto di affidarmi a iubenda, azienda composta da figure sia legali che tecniche, specializzata in questo settore.",
     },
     {
