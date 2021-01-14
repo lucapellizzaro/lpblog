@@ -15,7 +15,8 @@ module.exports = {
           pink: colors.pink,
           yellow: colors.amber,
           brand: {
-            '100': '#EDF2F4',
+            '50': '#EDF2F4',
+            '100': '#DBDCE7',
             '200': '#A9A9B1',
             '300': '#7D7F8A',
             '400': '#525463',
