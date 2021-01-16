@@ -1,6 +1,7 @@
 const { white } = require('tailwindcss/colors')
 const colors = require('tailwindcss/colors')
 
+
 module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js'],
   darkMode: false, // or 'media' or 'class'
@@ -16,12 +17,15 @@ module.exports = {
           yellow: colors.amber,
           brand: {
             '50': '#EDF2F4',
-            '100': '#DBDCE7',
-            '200': '#A9A9B1',
-            '300': '#7D7F8A',
-            '400': '#525463',
-            '500': '#27293B',
-            '600': '#1D1F2D',
+            '100': '#E2E7EB',
+            '200': '#D6DCE1',
+            '300': '#BFC6CD',
+            '400': '#919AA5',
+            '500': '#636E7D',
+            '600': '#4C5869',
+            '700': '#344155',
+            '800': '#2E3548',
+            '900': '#27293B',
         }
       }
     }
@@ -31,5 +35,7 @@ module.exports = {
       transitionProperty: ['responsive', 'motion-safe', 'motion-reduce']
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

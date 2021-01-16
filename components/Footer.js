@@ -3,100 +3,149 @@ import Link from 'next/link'
 export default function Footer() {
 return (
 
-        <footer className="bg-brand-100 mt-5">
+        <footer className="">
                 <div>
                 <img src="/cornice.svg"></img>
                 </div>
-                <div className="grid grid-cols-2 md:grid-cols-3 pb-8 px-5 mt-12 md:container md:mx-auto">
-                
-
-                <div className="flex-1 mb-8">
-                    <h5 className="font-semibold text-brand-300 uppercase mb-2 tracking-widest">Argomenti</h5>
-                    <ul className="space-y-1 text-brand-400">
-                    <li>
-                        <Link href="/">
-                        <a className="hover:text-brand-600 ml-2">
-                            WebApp
-                        </a>
-                        </Link>
-                    </li>
-                    
-                    <li>
-                        <Link href="/">
-                        <a className="hover:text-brand-600 ml-2">
-                            Sicurezza
-                        </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/">
-                        <a className="hover:text-brand-600 ml-2">
-                            Fotografia
-                        </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/">
-                        <a className="hover:text-brand-600 ml-2">
-                            Marketing
-                        </a>
-                        </Link>
-                    </li>
-                    </ul>
-                </div>
-
-
-
-                <div className="flex-1">
-                    <h5 className="font-semibold text-brand-300 uppercase mb-2 tracking-widest">Informazioni</h5>
-                    <ul className="space-y-1 text-brand-400">
-                    <li>
-                        <Link href="/chi-sono-biografia">
-                        <a className="hover:text-brand-600 ml-2">
-                            Chi sono
-                        </a>
-                        </Link>
-                    </li>
-                    
-                    <li>
-                        <Link href="/dicono-di-me">
-                        <a className="hover:text-brand-600 ml-2">
-                            Dicono di me
-                        </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/contatti">
-                        <a className="hover:text-brand-600 ml-2">
-                            Contatti
-                        </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/cookie-privacy-policy">
-                        <a className="hover:text-brand-600 ml-2">
-                            Cookie Privacy policy
-                        </a>
-                        </Link>
-                    </li>
-                    
-                    </ul>
-                </div>
-
-                
-                
-                </div>
-
-                <div>
-                <div className="md:container md:mx-auto flex flex-row text-xs pb-2 px-2 justify-between text-brand-300">
-                    <div>
-                    &copy;2021 Luca Pellizzaro
+                <div className="grid grid-cols-2 md:grid-cols-4 pb-8 px-5 mt-12 md:container md:mx-auto">
+                   
+                    <div className="hidden md:block col-span-2 md:col-span-1 mb-10 text-xs text-brand-500">
+                        <div className="flex mb-4">
+                            <div className="">
+                                    <Link href="/">
+                                            <a>
+                                                    <img src="/luca-pellizzaro-monogram.svg" className="h-9 w-9 mr-3"></img>
+                                            </a>
+                                    </Link>
+                            </div>
+                            <div className="fontbodoni text-brand-800 uppercase text-xl font-medium pt-1">
+                                Luca Pellizzaro
+                            </div>
+                        </div>
+                        <div>
+                        &copy;2021 Luca Pellizzaro
+                        </div>
+                        <div>
+                        Creato con &hearts; da <a href="https://bearoba.it" className="hover:text-brand-500 hover:underline" target="_blank">bearoba.it</a>
+                        </div>
                     </div>
-                    <div>
-                    Creato con &hearts; da <a href="https://bearoba.it" className="hover:text-brand-500 hover:underline" target="_blank">bearoba.it</a>
+
+                    <div className="flex-1 mb-8">
+                        <h5 className="font-semibold text-brand-400 uppercase mb-2 tracking-widest">Argomenti</h5>
+                        <ul className="space-y-1 text-brand-600">
+                        <li>
+                            <Link href="/">
+                            <a className="hover:text-brand-800 hover:underline ml-2">
+                                WebApp
+                            </a>
+                            </Link>
+                        </li>
+                        
+                        <li>
+                            <Link href="/">
+                            <a className="hover:text-brand-800 hover:underline ml-2">
+                                Sicurezza
+                            </a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/">
+                            <a className="hover:text-brand-800 hover:underline ml-2">
+                                Fotografia
+                            </a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/">
+                            <a className="hover:text-brand-800 hover:underline ml-2">
+                                Grafica
+                            </a>
+                            </Link>
+                        </li>
+                        </ul>
                     </div>
+
+
+
+                    <div className="">
+                        <h5 className="font-semibold text-brand-400 uppercase mb-2 tracking-widest">Informazioni</h5>
+                        <ul className="space-y-1 text-brand-600">
+                        <li>
+                            <Link href="/chi-sono-biografia">
+                            <a className="hover:text-brand-800 hover:underline ml-2">
+                                Chi sono
+                            </a>
+                            </Link>
+                        </li>
+                        
+                        <li>
+                            <Link href="/dicono-di-me">
+                            <a className="hover:text-brand-800 hover:underline ml-2">
+                                Dicono di me
+                            </a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/contatti">
+                            <a className="hover:text-brand-800 hover:underline ml-2">
+                                Contatti
+                            </a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/cookie-privacy-policy">
+                            <a className="hover:text-brand-800 hover:underline ml-2">
+                                Cookie Privacy policy
+                            </a>
+                            </Link>
+                        </li>
+                        
+                        </ul>
+                    </div>
+
+                    <div className="mb-8 col-span-2 md:col-span-1">
+                        <h5 className="font-semibold text-brand-400 uppercase mb-2 tracking-widest">Resta aggiornato</h5>
+                        <form>
+                            <div className="col-span-6 sm:col-span-4 mb-2">
+                                <label for="email_address" className="block text-sm text-brand-600">Non ti invierò pubblicità, solo brevi aggiornamenti!</label>
+                                <input type="text" name="email_address" id="email_address" autocomplete="email" placeholder="Indirizzo e-mail: utente@dominio.es" className="mt-1 focus:ring-brand-500 focus:border-brand-300 block w-full shadow-sm sm:text-sm border-brand-100 rounded-md" />
+                            </div>
+                            <div className="flex mb-3">
+                            <input id="remember_me" name="remember_me" type="checkbox" className="h-4 w-4 text-brand-400 focus:ring-brand-500 border-brand-100 rounded" />
+                            <label for="remember_me" className="ml-2 block text-xs text-brand-600">
+                            Ho letto <Link href="/cookie-privacy-policy"><a className="text-brand-700 hover:text-brand-400 hover:underline">l'informativa privacy</a></Link> e acconsento alla memorizzazione dei miei dati nel vostro archivio.
+                            </label>
+                            </div>
+                            <button type="submit" className="uppercase group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-brand-600 hover:bg-brand-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-500">
+                            Mi iscrivo!
+                            </button>
+                        </form>
+                    </div>
+
+                    <div className="md:hidden col-span-2 md:col-span-1 mb-10 mt-5 text-xs text-brand-400">
+                        <div className="flex mb-4">
+                            <div className="">
+                                    <Link href="/">
+                                            <a>
+                                                    <img src="/luca-pellizzaro-monogram.svg" className="h-8 w-8 mr-4"></img>
+                                            </a>
+                                    </Link>
+                            </div>
+                            <div className="fontbodoni text-brand-800 uppercase text-xl pt-1">
+                                Luca Pellizzaro
+                            </div>
+                        </div>
+                        <div>
+                        &copy;2021 Luca Pellizzaro
+                        </div>
+                        <div>
+                        Creato con &hearts; da <a href="https://bearoba.it" className="hover:text-brand-500 hover:underline" target="_blank">bearoba.it</a>
+                        </div>
+                    </div>
+                
                 </div>
-                </div>
+
+                
             </footer>
 
 )

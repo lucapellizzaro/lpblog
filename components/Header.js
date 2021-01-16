@@ -1,10 +1,11 @@
 import Link from 'next/link'
+import Navbar from '../components/Navbar'
 
 export default function Header() {
         return (
-            <header>
+            <header className="">
 
-                    <div className="px-2 mb-10 mt-8">
+                <div className="px-2 pb-10 pt-8 ">
                         <div className="mx-auto">
                                 <Link href="/">
                                         <a>
@@ -12,9 +13,19 @@ export default function Header() {
                                         </a>
                                 </Link>
                         </div>
-                    </div>
+                        
+                </div>
 
+                <Navbar />
+                
+                <div>
+                <div>
+                <img className="transform rotate-180" src="/cornice.svg"></img>
+                </div>    
+                </div>
             </header>
+
+            
 
     ) 
 }

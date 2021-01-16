@@ -4,8 +4,8 @@ export default function Navbar() {
         return (
 
 
-<section className="bg-brand-100 border-t-2 border-b-2 md:mx-auto md:container md:bg-transparent lg:w-1/2 fixed sm:static md:mb-8 bottom-0 w-full">
-        <div className="flex-row flex space-x-2 pb-2 pt-3 px-3 text-brand-500">
+<section className="bg-brand-100 border-t md:border-t-0 border-brand-400 md:mx-auto md:container md:bg-transparent lg:w-1/2 fixed sm:static bottom-0 w-full">
+        <div className="flex-row flex space-x-2 pb-2 pt-3 px-3 text-brand-800">
           
               <div className="flex-1">
                 <Link href="/">
@@ -85,7 +85,10 @@ export default function Navbar() {
               </div>
               
         </div>
+        
       </section>
+
+      
 
 ) 
 }
