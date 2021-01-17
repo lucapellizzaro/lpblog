@@ -2,19 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer utilities {
-    @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
-    .fontbodoni {
-        font-family: 'Bodoni Moda', serif;
-    }
-    
-    .brandcolor {
-        color: #344155;
-    }
-    body {
-        background: #E2E7EA;
-    }
+  @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap");
+  .fontbodoni {
+    font-family: "Bodoni Moda", serif;
+  }
+
+  .brandcolor {
+    color: #344155;
+  }
+  body {
+    background: #e2e7ea;
+  }
 }
-
-

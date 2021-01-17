@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Blog () {
+function Blog () {
 
   const posts = [
     {
@@ -67,6 +67,7 @@ export default function Blog () {
                       src={post.imageurl} 
                       alt={post.title} 
                       className="object-cover h-32 sm:h-48 w-full rounded"
+                      
                       ></img>
                     </div>
                       <div className="col-span-2 pl-3 sm:pl-1 sm:pr-1 mt-1 sm:mt-4">
@@ -105,3 +106,4 @@ export default function Blog () {
           </div>
   )
 }
+export default Blog
