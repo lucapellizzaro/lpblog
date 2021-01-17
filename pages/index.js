@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Services from "../components/Servicesitem"
+import Servicesitem from "../components/Servicesitem"
 
 function Home() {
   return (
