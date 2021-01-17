@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Services from "../components/services"
+import Services from "../components/Servicesitem"
 
 function Home() {
   return (
@@ -22,7 +22,7 @@ function Home() {
           </h2>
         </div>
         <div className="mb-10">
-          <Services />
+          <Servicesitem />
         </div>
       </main>
     </div>
