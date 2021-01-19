@@ -48,6 +48,7 @@ export default function Post({ postData }) {
 
       <div className="mb-10">
         <Image
+          loader={myLoader}
           src={postData.coverimage}
           alt={postData.title}
           layout="responsive"
