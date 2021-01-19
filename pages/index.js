@@ -15,7 +15,7 @@ function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mx-auto py-16 md:container">
+      <main className="">
         <div className="mb-10 text-center">
           <h2 className="fontbodoni text-brand-700 text-5xl uppercase tracking-widest">
             &bull; Home &bull;

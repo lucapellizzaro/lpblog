@@ -122,12 +122,12 @@ function Footer() {
         </div>
 
         <div className="lg:hidden col-span-2 lg:col-span-1 mb-10 mt-5 text-xs text-brand-400">
-          <div className="flex mb-4">
+          <div className="flex mb-4 items-center">
             <div className="">
               <Link href="/">
                 <a>
                   <img
-                    src="/luca-pellizzaro-monogram.svg"
+                    src="/svg/luca-pellizzaro-monogram.svg"
                     className="h-8 w-8 mr-4"
                   ></img>
                 </a>
@@ -137,6 +137,7 @@ function Footer() {
               Luca Pellizzaro
             </div>
           </div>
+          <div><Iconsocial /></div>
           <div>&copy;2021 Luca Pellizzaro</div>
           <div>
             Creato con &hearts; da{" "}
