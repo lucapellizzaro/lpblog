@@ -41,7 +41,7 @@ export default function Post({ postData }) {
         </p>
       </div>
       <div className="mb-10 text-center">
-        <h2 className="fontbodoni leading-relaxed text-brand-700 text-5xl uppercase tracking-widest">
+        <h2 className="fontbodoni leading-relaxed text-brand-700 text-2xl md:text-5xl uppercase tracking-widest">
           &bull; {postData.title} &bull;
         </h2>
       </div>
@@ -58,7 +58,7 @@ export default function Post({ postData }) {
           className="rounded-lg"
         />
       </div>
-      <div className="postspage md:px-16">
+      <div className="postspage px-2 md:px-16">
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </div>
     </div>

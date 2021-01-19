@@ -15,7 +15,7 @@ export default function Layout({ children }) {
         />
       </Head>
       
-        <main className="max-w-6xl mx-auto py-16">{children}</main>
+        <main className="md:max-w-6xl px-2 mx-auto py-16">{children}</main>
         
       
     </div>

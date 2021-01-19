@@ -98,7 +98,7 @@ function Blog({ allPostsData }) {
 
                     <Link href={`/posts/${id}`}>
                       <a>
-                        <h2 className="fontbodoni text-brand-800 hover:text-brand-600 hover:underline pb-1 text-xl sm:text-4xl sm:mb-3">
+                        <h2 className="fontbodoni text-brand-800 hover:text-brand-600 hover:underline pb-1 text-2xl sm:text-4xl sm:mb-3">
                           {title}
                         </h2>
                       </a>
