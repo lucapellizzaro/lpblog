@@ -1,11 +1,12 @@
 import Link from "next/link";
 import Formnewsletter from "../components/Formnewsletter";
+import Iconsocial from "../components/Iconsocial";
 
 function Footer() {
   return (
     <footer className="">
       <div>
-        <img src="/cornice.svg"></img>
+        <img src="/svg/cornice.svg"></img>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 pb-8 px-5 mt-12 md:container md:mx-auto">
         <div className="hidden lg:block col-span-2 md:col-span-1 mb-10 text-xs text-brand-400">
@@ -14,7 +15,7 @@ function Footer() {
               <Link href="/">
                 <a>
                   <img
-                    src="/luca-pellizzaro-monogram.svg"
+                    src="../svg/luca-pellizzaro-monogram.svg"
                     className="h-9 w-9 mr-3"
                   ></img>
                 </a>
@@ -24,7 +25,8 @@ function Footer() {
               Luca Pellizzaro
             </div>
           </div>
-          <div>&copy;2021 Luca Pellizzaro</div>
+          <div><Iconsocial /></div>
+          <div>&copy;2021 Luca Pellizzaro - P.Iva 03869960249 </div>
           <div>
             Creato con &hearts; da{" "}
             <a

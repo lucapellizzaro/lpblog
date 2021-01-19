@@ -7,11 +7,28 @@
   .fontbodoni {
     font-family: "Bodoni Moda", serif;
   }
-
   .brandcolor {
     color: #344155;
   }
   body {
     background: #e2e7ea;
+  }
+  .postspage p {
+    @apply mt-1 mb-6;
+  }
+  .postspage h2 {
+    @apply text-4xl fontbodoni text-brand-800 mt-6 mb-4;
+  }
+  .postspage h3 {
+    @apply text-3xl fontbodoni text-brand-800;
+  }
+  .postspage h4 {
+    @apply text-2xl fontbodoni text-brand-800;
+  }
+  .postspage {
+    @apply text-brand-900;
+  }
+  .postspage ul {
+    @apply list-disc my-4 pl-10;
   }
 }

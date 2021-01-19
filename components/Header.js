@@ -9,7 +9,7 @@ export default function Header() {
           <Link href="/">
             <a>
               <img
-                src="/luca-pellizzaro-monogram.svg"
+                src="../svg/luca-pellizzaro-monogram.svg"
                 className="h-20 w-full"
               ></img>
             </a>
@@ -21,7 +21,7 @@ export default function Header() {
 
       <div>
         <div>
-          <img className="transform rotate-180" src="/cornice.svg"></img>
+          <img className="transform rotate-180" src="/svg/cornice.svg"></img>
         </div>
       </div>
     </header>

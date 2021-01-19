@@ -1,22 +1,18 @@
-import '../styles/globals.css'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-
+import "../styles/globals.css";
+import Header from "../components/Header";
+import Layout from "../components/layout";
+import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
-  <content>
-    
-    <Header />
-      <div className="bg-white">
+    <content>
+      <Header />
+      <Layout>
         <Component {...pageProps} />
-      </div>
-    <Footer />
-    
-  </content>
-  )
-  
-  
+      </Layout>
+      <Footer />
+    </content>
+  );
 }
 
-export default MyApp
+export default MyApp;
