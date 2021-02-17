@@ -4,13 +4,13 @@ import Navbar from "../components/Navbar";
 export default function Header() {
   return (
     <header className="">
-      <div className="px-2 pb-10 pt-8 ">
+      <div className="px-2 pb-6 md:pb-10 pt-8 ">
         <div className="mx-auto">
           <Link href="/">
             <a>
               <img
                 src="../svg/luca-pellizzaro-monogram.svg"
-                className="h-20 w-full"
+                className="h-14 md:h-20 w-full"
               ></img>
             </a>
           </Link>

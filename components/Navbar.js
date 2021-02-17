@@ -39,7 +39,7 @@ function Navbar() {
   ];
 
   return (
-    <section className="bg-brand-100 border-t sm:border-t-0 border-brand-400 md:mx-auto md:container md:bg-transparent lg:w-2/3 fixed sm:static bottom-0 w-full">
+    <section className="bg-brand-100 z-10 border-t sm:border-t-0 border-brand-400 md:mx-auto md:container md:bg-transparent lg:w-2/3 fixed sm:static bottom-0 w-full">
       <div className="flex-row flex space-x-2 pb-2 pt-3 px-3 text-brand-800">
         {menuitems.map((menuitem) => (
           <div className="flex-1">
